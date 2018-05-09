@@ -4,13 +4,13 @@ version: 0.2
 env:
 # 環境變數
 # We strongly discourage using environment variables to store sensitive values
-  variables:
-    key: "value"
-    key: "value"
+#  variables:
+#    key: "value"
+#    key: "value"
 # Required if env is specified, and you want to retrieve custom environment variables # stored in Amazon EC2 Systems Manager Parameter Store. Contains a mapping of key/val# ue scalars, where each mapping represents a single custom environment variable stor# ed in Amazon EC2 Systems Manager Parameter Store
-  parameter-store:
-    key: "value"
-    key: "value"
+#  parameter-store:
+#    key: "value"
+#    key: "value"
 phases:
   install:
     commands:
@@ -31,6 +31,6 @@ artifacts:
     - target/my-web-app.war
   discard-paths: yes
 
-cache:
-  paths:
-    - '/root/.m2/**/*'
+#cache:
+#  paths:
+#    - '/root/.m2/**/*'
