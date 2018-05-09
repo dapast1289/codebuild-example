@@ -1,7 +1,7 @@
 version: 0.2
 
 
-env:
+#env:
 # 環境變數
 # We strongly discourage using environment variables to store sensitive values
 #  variables:
