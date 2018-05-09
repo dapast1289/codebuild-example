@@ -26,7 +26,7 @@ phases:
     commands:
       - echo Build completed on `date`
       #- mvn package
-      - mvn package
+      - mvn clean install -Dmaven.test.skip
 artifacts:
   files:
     - target/my-web-app.war
